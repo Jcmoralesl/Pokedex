@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex JC</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <form action="" onsubmit="searchPokemon(event)">
+            <input type="text" name="pokemon" placeholder="Escribe el nombre del Pokemon" autocomplete="off">
+        </form>
+    </header>
+    <main>
+        <div data-pokemon-card class="poke-card">
+            <div data-poke-name>Pokedex</div>
+            <div data-poke-img-container class="data-poke-img-container">
+                <img data-poke-img class="poke-img" src="poke-shadow.png">
+            </div>
+            <div data-poke-id></div>
+            <div data-poke-types class="poke-types"></div>
+            <div data-poke-stats class="poke-stats"></div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
